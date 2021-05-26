@@ -1,0 +1,206 @@
+LOCUS       NZ_CM003313             2343 bp    DNA     circular CON 08-MAR-2021
+DEFINITION  Acinetobacter baumannii MRSN 7339 plasmid pMRSN7339-2.3, whole
+            genome shotgun sequence.
+ACCESSION   NZ_CM003313 NZ_JPHV01000000
+VERSION     NZ_CM003313.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02906929
+            Assembly: GCF_001028265.1
+KEYWORDS    WGS; IMPROVED_HIGH_QUALITY_DRAFT; RefSeq.
+SOURCE      Acinetobacter baumannii MRSN 7339
+  ORGANISM  Acinetobacter baumannii MRSN 7339
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Moraxellaceae; Acinetobacter; Acinetobacter calcoaceticus/baumannii
+            complex.
+REFERENCE   1  (bases 1 to 2343)
+  AUTHORS   Chan,A.P., Choi,Y., Brinkac,L.M., Krishnakumar,R., DePew,J.,
+            Kim,M., Hinkle,M.K., Lesho,E.P. and Fouts,D.E.
+  TITLE     Multidrug resistant pathogens respond differently to the presence
+            of co-pathogen, commensal, probiotic and host cells
+  JOURNAL   Sci Rep 8 (1), 8656 (2018)
+   PUBMED   29872152
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2343)
+  AUTHORS   Chan,A.P., Sutton,G., DePew,J., Krishnakumar,R., Choi,Y.,
+            Huang,X.Z., Beck,E., Harkins,D.M., Kim,M., Lesho,E.P.,
+            Nikolich,M.P. and Fouts,D.E.
+  TITLE     A novel method of consensus pan-chromosome assembly and large-scale
+            comparative analysis reveal the highly flexible pan-genome of
+            Acinetobacter baumannii
+  JOURNAL   Genome Biol 16, 143 (2015)
+   PUBMED   26195261
+  REMARK    Publication Status: Online-Only
+REFERENCE   3  (bases 1 to 2343)
+  AUTHORS   Harkins,D.M., Lesho,E., Waterman,P.E., Chan,A. and Fouts,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-JUL-2014) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CM003313.1.
+            This strain is part of the 'Characterization and expression of drug
+            resistance genes in MDROs originating from combat wound infections'
+            project.
+            
+            Source DNA and/or bacteria are available from the
+            Multidrug-resistant Organism Repository and Surveillance Network
+            (MRSN), Walter Reed Army Institute of Research (WRAIR), 503 Robert
+            Grant Ave, Silver Spring, MD, 20910, USA
+            (http://wrair-www.army.mil/OtherServices_MRSN.aspx).
+            
+            This project has been funded in whole or in part with federal funds
+            from the Defense Medical Research and Development Program, Military
+            Infectious Diseases Basic Research Award number W81XWH-12-2-0106.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: Improved High-Quality Draft
+            Current Finishing Status :: Improved High-Quality Draft
+            Assembly Method          :: Celera Assembler v. 7.0
+            Assembly Name            :: gdodcwi06 v01
+            Long Assembly Name       :: Acinetobacter baumannii MRSN 7339 v01
+            Genome Representation    :: Full
+            Expected Final Version   :: Yes
+            Genome Coverage          :: 115.46x
+            Sequencing Technology    :: Illumina HiSeq 2000
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 03/08/2021 01:36:47
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 5.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 3,825
+            CDSs (total)                      :: 3,754
+            Genes (coding)                    :: 3,679
+            CDSs (with protein)               :: 3,679
+            Genes (RNA)                       :: 71
+            rRNAs                             :: 6, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 6, 1 (5S, 16S)
+            partial rRNAs                     :: 1 (23S)
+            tRNAs                             :: 59
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 75
+            CDSs (without protein)            :: 75
+            Pseudo Genes (ambiguous residues) :: 0 of 75
+            Pseudo Genes (frameshifted)       :: 31 of 75
+            Pseudo Genes (incomplete)         :: 40 of 75
+            Pseudo Genes (internal stop)      :: 12 of 75
+            Pseudo Genes (multiple problems)  :: 8 of 75
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2343
+                     /organism="Acinetobacter baumannii MRSN 7339"
+                     /mol_type="genomic DNA"
+                     /strain="MRSN 7339"
+                     /isolation_source="wound"
+                     /host="Homo sapiens"
+                     /culture_collection="MRSN<USA>:7339"
+                     /db_xref="taxon:1409927"
+                     /plasmid="pMRSN7339-2.3"
+                     /country="USA"
+                     /lat_lon="38.975 N 77.030 W"
+                     /collection_date="2004-09"
+     gene            join(2197..2343,1..9)
+                     /locus_tag="T634_RS19785"
+     CDS             join(2197..2343,1..9)
+                     /locus_tag="T634_RS19785"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_153603842.1"
+                     /translation="MATEMRQKFNCDVIFNVVEAEDTTMRMDGDLTFDEMFEPQEIFS
+                     KYMEPMH"
+     gene            253..411
+                     /locus_tag="T634_RS19790"
+                     /old_locus_tag="T634_A0001"
+     CDS             253..411
+                     /locus_tag="T634_RS19790"
+                     /old_locus_tag="T634_A0001"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_001990869.1"
+                     /translation="MCGARPADPRDADMRADIYFQPENEKTERVSTRELTQNDLKPSL
+                     SDYKLPLA"
+     gene            947..2131
+                     /locus_tag="T634_RS00005"
+                     /old_locus_tag="T634_A0002"
+     CDS             947..2131
+                     /locus_tag="T634_RS00005"
+                     /old_locus_tag="T634_A0002"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_003115284.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="protein rep"
+                     /protein_id="WP_032071712.1"
+                     /translation="MNIFYGENPSSASSKSLENSQSLGIKTKSHVMLTPQGFQRVHDY
+                     LLQDQSRKLLPKERVSKCRRLRIDKTKTRTVMYNEHREKAHYGNVQICGSIWSCPVCA
+                     KQITQKRRNELGKGIESWKTAHNGSVYLLTLTFSHSPDQSLKSNLEGLKRAMKRFYET
+                     TRVQAIFKKLSVFHKIKGLEVTYGQNGWHPHHHVLLLAEHHDLRFKDYTSELTELWIK
+                     ACIKSGLNAPSMRHGLDLRNGSYADQYVSKWGLEDELSKGHVKKGRNGGFTPFDLLNF
+                     SIEDNEIYGKKPSKLFQEFAISMKGARQLVWSRGLKKLLGIEEKSDEELAVETDKASI
+                     TLNRVEDLVFELLCRYQLRHQYLEAIKHDYETGSFGSGLADQLIEQVVNYEIKQMQQV
+                     FS"
+ORIGIN      
+        1 atgcattaat tattaaatca cttaatggcg tttggcgtgc gatgcacgca cataacgcca
+       61 ttaagtgagt tcttattagc ctggaatatt ccaggctttt ttgcgtgtac gcaaaaatca
+      121 aaaagaacca aattgacaac atgacaacaa gacaatttga caacatgaaa acatgacaac
+      181 aacttaggct atctatgcac cactggtgca tgaatatttg ggcgcaatat cagcgtggcg
+      241 ggggtcggtg ggatgtgcgg agcgcgtcct gccgaccccc gcgatgctga tatgagagca
+      301 gatatttatt ttcagcctga aaatgaaaaa acagagcggg tgtctacccg cgaactgaca
+      361 caaaacgatt taaaaccttc cctctctgat tacaagctcc ctttagccta agaacgggag
+      421 ttaccgagct ttgctcgcag gatgcttttg tttctcgaat gagaaacgcg taagcgtgca
+      481 ttcctgaaaa aacaccctaa tttgctaggt ggaaaacaca caaagaacct gtactaaaac
+      541 tagggagaat aaatataaga aaggagattc acttatgctt gattatgatt ttattaattt
+      601 gattcttttc gttttatcga ccttgtacac aattttgggg tattacaaaa aatgatattc
+      661 caatctatta aaaacaaggc gggacaatta cgaggagtga ggaggagggc acgcacgacg
+      721 acacgaccga ggaattggca gagccttgta tttactgcgt gtatctctcg tatatacggg
+      781 gtgttgtcat gaaaacttgt tgtcttgctt ttaggaattt ttcagtagta atatcaactt
+      841 gcactaaagt cctgtgcgaa agacctagta aaccgtacag gcataaaaat gggctgacag
+      901 tgctggaaca cttcaaccca gtgatcaaca taattaaggt atgtcgatga atatatttta
+      961 tggggaaaat ccgtcctcag caagctcaaa gagcctcgaa aatagccagt cccttggtat
+     1021 aaagacgaaa tctcatgtaa tgcttacgcc acaaggcttt cagcgtgtgc atgattatct
+     1081 attacaagac caatctagaa aacttcttcc taaagaacgt gtatctaaat gtagacgtct
+     1141 ccggatcgat aaaactaaga ctagaactgt tatgtataac gagcatcggg agaaggctca
+     1201 ttatggcaat gttcaaatct gcggttctat ttggtcatgt cctgtttgtg ccaagcaaat
+     1261 cacacagaaa agacgtaatg aattaggtaa gggcatagag tcgtggaaaa cggctcataa
+     1321 tggctctgta tatctcctta cgcttacttt tagccattca cctgaccaat ccctcaaaag
+     1381 taatttagag ggccttaaac gcgcaatgaa gcgtttttat gagacaactc gagttcaggc
+     1441 tatttttaaa aaactatctg tttttcacaa aataaaaggc ctagaagtta catacggtca
+     1501 gaatggttgg catccccatc atcatgtact tcttttagct gaacatcatg atttacgttt
+     1561 taaagattac acttctgaat taacggagtt atggattaaa gcctgtatta aatcaggatt
+     1621 aaatgctcca tcgatgcgcc acggtttaga tcttcgaaat ggctcttatg ctgaccaata
+     1681 tgtgtctaag tggggccttg aagatgaact ttcgaaaggg catgtgaaaa aaggtcgcaa
+     1741 tggtggtttt accccttttg atcttttaaa tttttctatt gaagataatg aaatttatgg
+     1801 aaaaaaacct tctaaacttt ttcaagaatt tgccatttct atgaagggtg ctcgccaact
+     1861 agtttggtct cgaggtctta aaaaactttt aggtattgaa gaaaaaagtg acgaggaact
+     1921 tgcagtagaa actgacaaag cttccattac tttgaatcgt gttgaagatc tcgtttttga
+     1981 acttttatgt cgttatcaat tgcgtcatca atatcttgaa gcaattaaac atgattatga
+     2041 gactggctct tttggttctg gattagcaga tcaacttatt gagcaagtag tgaattatga
+     2101 aattaaacaa atgcagcagg tattttcgtg attgaagcaa tttatatttc cataggtaag
+     2161 attcatcgaa atgtacctaa actaatttgg gataacatgg ccacagaaat gcgtcaaaaa
+     2221 tttaattgtg acgtgatttt caatgttgtt gaagctgaag atacgactat gcgtatggat
+     2281 ggtgatttaa cttttgatga aatgtttgaa cctcaagaaa tatttagtaa gtacatggaa
+     2341 cca
+//
+

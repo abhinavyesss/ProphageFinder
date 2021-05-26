@@ -1,0 +1,149 @@
+LOCUS       NZ_AFDL01000005         2277 bp    DNA     circular CON 08-MAR-2021
+DEFINITION  Acinetobacter baumannii OIFC143 plasmid pOIFC143-2.3, whole genome
+            shotgun sequence.
+ACCESSION   NZ_AFDL01000005 NZ_AFDL01000000
+VERSION     NZ_AFDL01000005.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02436631
+            Assembly: GCF_000278665.1
+KEYWORDS    WGS; IMPROVED_HIGH_QUALITY_DRAFT; RefSeq.
+SOURCE      Acinetobacter baumannii OIFC143
+  ORGANISM  Acinetobacter baumannii OIFC143
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Moraxellaceae; Acinetobacter; Acinetobacter calcoaceticus/baumannii
+            complex.
+REFERENCE   1  (bases 1 to 2277)
+  AUTHORS   Chan,A.P., Sutton,G., DePew,J., Krishnakumar,R., Choi,Y.,
+            Huang,X.Z., Beck,E., Harkins,D.M., Kim,M., Lesho,E.P.,
+            Nikolich,M.P. and Fouts,D.E.
+  TITLE     A novel method of consensus pan-chromosome assembly and large-scale
+            comparative analysis reveal the highly flexible pan-genome of
+            Acinetobacter baumannii
+  JOURNAL   Genome Biol 16, 143 (2015)
+   PUBMED   26195261
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2277)
+  AUTHORS   Harkins,D.M., Durkin,A.S., Beck,E., Fedorova,N.B., Kim,M.,
+            Onuska,J., Radune,D., DePew,J., Koroleva,G.I., Singh,I.,
+            Chahine,M.A., Cash,D.M., Huang,X.-Z., Nikolich,M.P., Nierman,W.C.
+            and Fouts,D.E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-JUL-2012) The J. Craig Venter Institute, 9704 Medical
+            Center Dr, Rockville, MD 20850, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            AFDL01000005.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Finishing Goal           :: Improved High-Quality Draft
+            Current Finishing Status :: Improved High-Quality Draft
+            Assembly Method          :: Celera Assembler v. 6.1
+            Assembly Name            :: AcbauOIFC143v1.0
+            Genome Coverage          :: 13x
+            Sequencing Technology    :: 454; Illumina
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 03/07/2021 23:54:06
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 5.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 4,320
+            CDSs (total)                      :: 4,226
+            Genes (coding)                    :: 4,116
+            CDSs (with protein)               :: 4,116
+            Genes (RNA)                       :: 94
+            rRNAs                             :: 6, 6, 6 (5S, 16S, 23S)
+            complete rRNAs                    :: 6, 6, 6 (5S, 16S, 23S)
+            tRNAs                             :: 72
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 110
+            CDSs (without protein)            :: 110
+            Pseudo Genes (ambiguous residues) :: 0 of 110
+            Pseudo Genes (frameshifted)       :: 39 of 110
+            Pseudo Genes (incomplete)         :: 57 of 110
+            Pseudo Genes (internal stop)      :: 22 of 110
+            Pseudo Genes (multiple problems)  :: 7 of 110
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2277
+                     /organism="Acinetobacter baumannii OIFC143"
+                     /mol_type="genomic DNA"
+                     /submitter_seqid="pOIFC143-2.3"
+                     /strain="OIFC143"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:903893"
+                     /plasmid="pOIFC143-2.3"
+                     /country="USA: Walter Reed Army Medical Center,
+                     Washington, DC"
+                     /collection_date="2003-07-31"
+     gene            join(1994..2277,1..649)
+                     /gene="repM"
+                     /locus_tag="ACIN5143_RS0105305"
+     CDS             join(1994..2277,1..649)
+                     /gene="repM"
+                     /locus_tag="ACIN5143_RS0105305"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005265321.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein RepM"
+                     /protein_id="WP_000711927.1"
+                     /translation="MKKELVVKDNALINASYNLDLSEQRLILLAILEARQSNTPNDKD
+                     LTIHAESYINHFNVHRNTAYKVLKDACKSLFDRRFSYQKLTQKGNIENVISRWVQRIS
+                     YVENEALVRIKFSDDVVPLITNLEKHFTSYELEQVSSLTSVYAIRLYELLIAWRSTGK
+                     VTMVELEELRLKLGIEPNEYKRMGQFKEKVLHLAIDQINKYTDIKAEYEQHKRGRSII
+                     GFSFKFKQKQQPKKLDSKRDPNTPDFFIRMTDAQRHLFGNKLAHDARVQSEYSHLIGT
+                     GSYEDFAKLLADMLAEEQHFKMFYPLLVEHGYKA"
+ORIGIN      
+        1 tcgatgggta caacgaatat cttatgtaga gaatgaagct cttgttcgta ttaagttttc
+       61 tgatgatgtt gtaccgttga ttacaaattt agaaaaacac ttcactagtt atgaactaga
+      121 gcaagtcagc agtttaacta gtgtttacgc tatacgcttg tatgagttgc ttatcgcatg
+      181 gcgtagtacg ggcaaagtga ctatggtaga gctagaagag ctaagattaa aactaggcat
+      241 agaacccaat gaatacaaga gaatggggca atttaaagaa aaagttttac accttgccat
+      301 tgatcaaatt aataagtaca cagatataaa agcagagtat gaacaacaca aacgtggtcg
+      361 ttcaattatt ggtttttcat ttaagtttaa gcagaaacaa caaccgaaaa aattagattc
+      421 taagcgtgac ccaaacacac ctgacttttt tatcagaatg accgatgcac aacgccactt
+      481 atttgggaac aaactagccc atgatgctcg tgtacaaagc gaatacagcc atttaattgg
+      541 tactggaagc tatgaagact ttgcaaaatt actggcggat atgcttgcag aagaacagca
+      601 ttttaagatg ttttaccctt tgcttgtaga gcatggttac aaagcataaa tcttgtcgta
+      661 ttctatcaat ggtagataag tcatttcgac cttccttatc tatgtacaag ataaggtggc
+      721 gccaccaata cgccaatatt ggtggatagc caccaacccc tctaaattgc gttttaagcg
+      781 atccaaatcc aacaagctac attcacatac ccactgcgag caaagctcga aatatcgcat
+      841 cctatgagca aatagagcat gtaatcaggg agggtgtgct tgtttttgca tttcatcagt
+      901 tcactcgtag acactcgctc taaaaatcta tctgtgcttt tcattttggc tttagccaaa
+      961 gaaagccccg aaggggtgtg aagcgaaagc ggaacatcat cgaagcccca gcggagatga
+     1021 ctggggggag ccgacaacgt aaaagggagt ggacacgaac tttagacatc cccagatgtc
+     1081 gttagttgtt ggggggcaag cccaccccgt caaactatcc cgaaggggag ttgacccacc
+     1141 tcgttttagt gtaagcgttc agcgaatccg aaggacatac gagcctaagc gaaatatgca
+     1201 cctaaaaggg ggtgggtcaa ctccgtagga ggatgacggg gcgcgagcac gaagtgcgct
+     1261 gcaacttgga gcgatagcgg aaagtgaaag gcaacaaaaa acgattatta agggcgtcca
+     1321 gcccttaaag tacaaggaat cctgacgtcc aggaaggacg agcgaagcga gcttgtacgg
+     1381 taattgtttt taggcgcagc gaagcgaagt gtctgtgcct tttactgtgc ttttatcggt
+     1441 gcactaaaaa tccaataaaa gcaccataga aagcacagat agaattaacc gagcgagtgt
+     1501 ctacgagcga ttgagcatca tcaaaatttc gccctcgcct tttctctgat tacaagctcc
+     1561 ctttcgattt taaacggtag gtacagagca tcccgaatgg gtgcgaactt tggagctttt
+     1621 gcttttcaaa aagtatgagc gaagcgaata cattacaaat gcttttgctt ttagatttca
+     1681 caaacaggat taactaaaaa ctgccccacg aagcgaggaa cgagcttcaa tagagtacga
+     1741 gctttagcga gtacataggg cagttttaag cactcccctc tttttaataa tttttaattt
+     1801 tttaattttt agcctctgta attaattgat aaataataat aaaaataagg ataagtacac
+     1861 ctttatcttg caataagtac acctttatct tgcaataagt acacctttat cttgcaataa
+     1921 gtacaccttt atcttgcaaa gtgacactta ataaaataga gtgtacttat atacttaaaa
+     1981 gacatgtgtg cttatgaaaa aagaactagt cgttaaagat aatgcactaa taaatgccag
+     2041 ttataattta gacctatcag aacaacgttt aatactgtta gccatacttg aagctaggca
+     2101 atcaaataca cccaatgata aagatttgac gattcatgct gaaagctata tcaaccattt
+     2161 caatgttcat agaaatacag cctataaagt tcttaaagat gcttgcaaaa gcctatttga
+     2221 tcgtagattt agctatcaaa aactgactca aaagggcaac attgagaatg taataag
+//
+
