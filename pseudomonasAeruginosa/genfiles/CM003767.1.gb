@@ -1,0 +1,187 @@
+LOCUS       CM003767                3652 bp    DNA     circular CON 08-FEB-2016
+DEFINITION  Pseudomonas aeruginosa strain BH6 plasmid pBH6, complete sequence,
+            whole genome shotgun sequence.
+ACCESSION   CM003767 LGVH01000000
+VERSION     CM003767.1
+DBLINK      BioProject: PRJNA291357
+            BioSample: SAMN03943237
+KEYWORDS    WGS.
+SOURCE      Pseudomonas aeruginosa
+  ORGANISM  Pseudomonas aeruginosa
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 3652)
+  AUTHORS   Galetti,R., Andrade,L.N., Varani,A.M. and Darini,A.L.
+  TITLE     Genome sequence of a nosocomial KPC-2-producing Pseudomonas
+            aeruginosa strain BH6
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3652)
+  AUTHORS   Galetti,R., Andrade,L.N., Varani,A.M. and Darini,A.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JUL-2015) Technology, UNESP-FCAV, Via de Acesso Prof.
+            Paulo Donato Castellane s/n, Jaboticabal, SP 14884-900, Brazil
+COMMENT     Annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (released 2013). Information about the Pipeline can be
+            found here: https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Date          :: 2015
+            Assembly Method        :: CLC NGS Cell v. 8.0.4
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 990.0x
+            Sequencing Technology  :: IonProton
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI
+            Annotation Date                   :: 01/29/2016 16:05:45
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS+
+            Annotation Software revision      :: 3.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 6,721
+            CDS (total)                       :: 6,648
+            Genes (coding)                    :: 5,762
+            CDS (coding)                      :: 5,762
+            Genes (RNA)                       :: 73
+            rRNAs                             :: 3, 1, 1 (5S, 16S, 23S)
+            complete rRNAs                    :: 3, 1, 1 (5S, 16S, 23S)
+            tRNAs                             :: 64
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 886
+            Pseudo Genes (ambiguous residues) :: 0 of 886
+            Pseudo Genes (frameshifted)       :: 364 of 886
+            Pseudo Genes (incomplete)         :: 583 of 886
+            Pseudo Genes (internal stop)      :: 8 of 886
+            Pseudo Genes (multiple problems)  :: 68 of 886
+            CRISPR Arrays                     :: 3
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3652
+                     /organism="Pseudomonas aeruginosa"
+                     /mol_type="genomic DNA"
+                     /strain="BH6"
+                     /isolation_source="tissue of patient with lung disease"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:287"
+                     /plasmid="pBH6"
+                     /country="Brazil: Belo Horizonte"
+                     /lat_lon="19.55 S 43.56 W"
+                     /collection_date="2011"
+                     /collected_by="FCFRP"
+     gene            116..673
+                     /locus_tag="AKG06_00005"
+     CDS             116..673
+                     /locus_tag="AKG06_00005"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_005687610.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="recombinase"
+                     /protein_id="KWZ62602.1"
+                     /translation="MRIFGYARVSTSQQSLDIQIRALKDAGVKANRIFTDKASGSSTD
+                     REGLDLLRMKVEEGDVILVKKLDRLGRDTADMIQLIKEFDAQGVAVRFIDDGISTDGD
+                     MGQMVVTILSAVAQAERRRILERTNEGRQEAKLKGIKFGRRRTVDRNVVLTLHQKGTG
+                     ATEIAHQLSIARSTVYKILEDERAS"
+     gene            982..1863
+                     /locus_tag="AKG06_00010"
+     CDS             982..1863
+                     /locus_tag="AKG06_00010"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_020803043.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="class A beta-lactamase"
+                     /protein_id="KWZ62603.1"
+                     /translation="MSLYRRLVLLSCLSWPLAGFSATALTNLVAEPFAKLEQDFGGSI
+                     GVYAMDTGSGATVSYRAEERFPLCSSFKGFLAAAVLARSQQQAGLLDTPIRYGKNALV
+                     PWSPISEKYLTTGMTVAELSAAAVQYSDNAAANLLLKELGGPAGLTAFMRSIGDTTFR
+                     LDRWELELNSAIPGDARDTSSPRAVTESLQKLTLGSALAAPQRQQFVDWLKGNTTGNH
+                     RIRAAVPADWAVGDKTGTCGVYGTANDYAVVWPTGRAPIVLAVYTRAPNKDDKHSEAV
+                     IAAAARLALEGLGVNGQ"
+     gene            complement(2113..2976)
+                     /locus_tag="AKG06_00015"
+                     /pseudo
+     CDS             complement(2113..2976)
+                     /locus_tag="AKG06_00015"
+                     /inference="EXISTENCE: similar to AA
+                     sequence:RefSeq:WP_004152397.1"
+                     /note="incomplete; partial on complete genome; missing
+                     start; Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transposase"
+ORIGIN      
+        1 ccgaaatgtt ataaattatc agacatagta aaacggcttc gtttgagtgt ccattaaatc
+       61 gtcattttgg cataatagac acatcgtgtc tgatattcga tttaaggtac attttatgcg
+      121 aatttttggt tatgcgcggg tctcaaccag ccagcagtcc ctcgatattc agatcagagc
+      181 gctcaaagat gcaggggtaa aagctaaccg catctttacc gacaaggcat ccggcagttc
+      241 aacagatcgg gaagggctgg atttgctgag gatgaaggtg gaggaaggtg atgtcattct
+      301 ggtgaagaag ctcgaccgtc ttggccgcga caccgccgac atgatccaac tgataaaaga
+      361 gtttgatgct cagggtgtcg cggttcggtt tattgacgac gggatcagta ccgacggtga
+      421 tatggggcaa atggtggtca ccatcctgtc ggctgtggca caagctgaac gccggaggat
+      481 cctagagcgc acgaatgagg gccgacagga agcaaagctg aaaggaatca aatttggccg
+      541 caggcgtacc gtggacagga acgtcgtgct gacgcttcat cagaagggca ctggtgcaac
+      601 ggaaattgct catcagctca gtattgcccg ctccacggtt tataaaattc ttgaagacga
+      661 aagggcctcg tgatacgctt atttttatag gttaatgtca tgataataat ggtttcttag
+      721 acgtcaggtg gcacttttcg gggaaatgtg cgcggaaccc ctatttgttt atttttctaa
+      781 atacattcaa atatgtatcc gctcatgaga caataaccct gataaatgct tcaataatat
+      841 tgaaaaagga agagtatgag tattcaacat ttccgttgag ttttcgttcc actgagcgtc
+      901 agacccctaa tcccagctgt agcggcctga ttacatccgg ccgctacacc tagctccacc
+      961 ttcaaacaag gaatatcgtt gatgtcactg tatcgccgtc tagttctgct gtcttgtctc
+     1021 tcatggccgc tggctggctt ttctgccacc gcgctgacca acctcgtcgc ggaaccattc
+     1081 gctaaactcg aacaggactt tggcggctcc atcggtgtgt acgcgatgga taccggctca
+     1141 ggcgcaactg taagttaccg cgctgaggag cgcttcccac tgtgcagctc attcaagggc
+     1201 tttcttgctg ccgctgtgct ggctcgcagc cagcagcagg ccggcttgct ggacacaccc
+     1261 atccgttacg gcaaaaatgc gctggttccg tggtcaccca tctcggaaaa atatctgaca
+     1321 acaggcatga cggtggcgga gctgtccgcg gccgccgtgc aatacagtga taacgccgcc
+     1381 gccaatttgt tgctgaagga gttgggcggc ccggccgggc tgacggcctt catgcgctct
+     1441 atcggcgata ccacgttccg tctggaccgc tgggagctgg agctgaactc cgccatccca
+     1501 ggcgatgcgc gcgatacctc atcgccgcgc gccgtgacgg aaagcttaca aaaactgaca
+     1561 ctgggctctg cactggctgc gccgcagcgg cagcagtttg ttgattggct aaagggaaac
+     1621 acgaccggca accaccgcat ccgcgcggcg gtgccggcag actgggcagt cggagacaaa
+     1681 accggaacct gcggagtgta tggcacggca aatgactatg ccgtcgtctg gcccactggg
+     1741 cgcgcaccta ttgtgttggc cgtctacacc cgggcgccta acaaggatga caagcacagc
+     1801 gaggccgtca tcgccgctgc ggctagactc gcgctcgagg gattgggcgt caacgggcag
+     1861 taaggctctg aaaatcatct attggcccac caccgccgcc cttgcgggcg gcatggatta
+     1921 ccaaccactg tcacatttag gctaggagtc tgcgcggcag agccgtgtga ccggttttct
+     1981 gtagagcact gacgatggcg gcggcgctct ctgcaattgg caaggcgtcg gcgccaagga
+     2041 taccaatctt gcggcgcgcg gcgtgttatg acgactgggg tgcatttgag ccgccccatt
+     2101 taaccttcgc cctcacagat acgccattcg cctcagattt agcgccatgc agacgagctt
+     2161 ccactcggct tgcaccttgt ccaggcccct catgctgaac tgacgcaatc ccatcaccgc
+     2221 cttgatccaa ccattcggag cctccacgat cgacttgcgc cggcggtaag ctgcatcgcc
+     2281 ttgctccgtt ttcaatttcg ccgcaatcgc cgccgtatgc ggatgggtct tggcattgac
+     2341 cttggcatct tcacgtccct cgcggccgag ggcaacgatg acatcgccgt ggtgatcggc
+     2401 gacctttgcc agaacagcct cactacggaa tcccgcatcc gccagcgtct gggccggcat
+     2461 ttctccggtg ttggcctgaa ctgctgccag catgcccagc agcgcctgac tgtccgcggc
+     2521 gcagttggtc aactccgccg ccacgatgat ctggtgctcg gcatcgaccg ctgtgtaccc
+     2581 gttgtagctc tgctcggagc caccaccggc gtgtttcatg atccggctgt ccggatcggt
+     2641 gaagctttcc tgatcacggt catccggcac accaaactcg cgtttgtacg agccaccgcc
+     2701 cttgtccgag ccatccggat ggcgaggccg gcggccatcg tcttcgctgc gcccccgggc
+     2761 ctggtccgct tcacgctggc gcgcttccag gcgcgccttt gccgcctgga tcgcctccag
+     2821 gcgcttctcg cggcgagaaa tctcggcagg aatgtccagc tccggctcgt tacgctcctg
+     2881 gtcgtcggta gccttggcgc gatcaagcag cgccttgatc tcgcaatgca attcgtcctc
+     2941 ggccggcttc atgcgcttat agctcatcgc cttgtggtcg ccatgtttgg cggcttcgta
+     3001 ttcaggttct ttagagagat cctttagggg tcgtctcaga attcggaaaa taaagcacgc
+     3061 tagcggttga tctgtcaggt tgaagcctga gaggccgagc gcagatcgtc agaaaaggcg
+     3121 aaaaacgatc ctaatctgac gcaacatagg tggggtgcct gacgcccggt tgaggcgtac
+     3181 ttcaactgga caccattcca gaaagaccaa gcatggcatg gcctgccgct gtcttaccgt
+     3241 gctttatttc ccgttttctc tatcgacccc aggaaggtct gaaaaagccc ccgctcgaga
+     3301 aatgcatccc agcaaccatg cgggttacag agcggtgatt tcgcgaaaca tgggcttttt
+     3361 cagagcttcc ttagcgttac gataaagcta gcatggaaac gataggtgca agcaagttaa
+     3421 gggttgcatc gcgcatgtca atctaggcta tacctcaact gggcgtcagt cggctcactg
+     3481 gcatcgcgtc agactagggc cgctttctgc attatctgac gcctaaacgt caaactctat
+     3541 ggcctcaacc tgacaggccg catgcttagc gtacgatttt gtccgttttc tctaccgtcc
+     3601 cccatatagg cctccctgcc ttacgggcat ttagtaacat ttttgcaacc gt
+//
+

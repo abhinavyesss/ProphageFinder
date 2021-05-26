@@ -1,0 +1,142 @@
+LOCUS       NZ_CP070469             1417 bp    DNA     circular CON 26-FEB-2021
+DEFINITION  Pseudomonas aeruginosa strain B17416 plasmid p2B17416, complete
+            sequence.
+ACCESSION   NZ_CP070469
+VERSION     NZ_CP070469.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN17915141
+            Assembly: GCF_016925455.1
+KEYWORDS    RefSeq.
+SOURCE      Pseudomonas aeruginosa
+  ORGANISM  Pseudomonas aeruginosa
+            Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales;
+            Pseudomonadaceae; Pseudomonas.
+REFERENCE   1  (bases 1 to 1417)
+  AUTHORS   Veeraraghavan,B., Varghese,G.M. and Vijayakumar,S.
+  TITLE     Multidrug resistant Pseudomonas aeruginosa_B17416_hybrid assembly
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1417)
+  AUTHORS   Veeraraghavan,B., Varghese,G.M. and Vijayakumar,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-FEB-2021) Clinical Microbiology, Christian Medical
+            College, Ida Scudder road, Vellore 632004, India
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP070469.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: Canu v. 1.8
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 84.0x
+            Sequencing Technology  :: Illumina; Oxford Nanopore
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Date                   :: 02/25/2021 10:40:13
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 5.1
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA;
+                                                 repeat_region
+            Genes (total)                     :: 6,315
+            CDSs (total)                      :: 6,235
+            Genes (coding)                    :: 6,154
+            CDSs (with protein)               :: 6,154
+            Genes (RNA)                       :: 80
+            rRNAs                             :: 4, 4, 4 (5S, 16S, 23S)
+            complete rRNAs                    :: 4, 4, 4 (5S, 16S, 23S)
+            tRNAs                             :: 64
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 81
+            CDSs (without protein)            :: 81
+            Pseudo Genes (ambiguous residues) :: 0 of 81
+            Pseudo Genes (frameshifted)       :: 34 of 81
+            Pseudo Genes (incomplete)         :: 52 of 81
+            Pseudo Genes (internal stop)      :: 6 of 81
+            Pseudo Genes (multiple problems)  :: 10 of 81
+            CRISPR Arrays                     :: 3
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1417
+                     /organism="Pseudomonas aeruginosa"
+                     /mol_type="genomic DNA"
+                     /strain="B17416"
+                     /isolation_source="blood"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:287"
+                     /plasmid="p2B17416"
+                     /country="India: Vellore"
+                     /lat_lon="12.9165 N 79.1325 E"
+                     /collection_date="2014"
+                     /collected_by="Christian Medical College"
+     gene            complement(210..1004)
+                     /locus_tag="JT749_RS31560"
+                     /old_locus_tag="JT749_31560"
+     CDS             complement(210..1004)
+                     /locus_tag="JT749_RS31560"
+                     /old_locus_tag="JT749_31560"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_003682122.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation factor domain-containing
+                     protein"
+                     /protein_id="WP_109843927.1"
+                     /translation="MRFDYYTASIEAKGDRVLDHLASSFELSDITPTTPKNGYERAYN
+                     VVRGDSVLARVMWGGNSVGTRVWASASGDRAPAFAAVVRDEFRGHNLLRADVAIDYCE
+                     PGAWDSLYSLGIETADRFNLKVTHVGDYHREQDGRTLYIGSRSSAAYKRIYEKGKQTG
+                     GDPDHVRAELELKPQNAKAKQVYAYASPEQMWMATRWTQHLLKVLTGVDGMQPAPPGT
+                     VRQLTDDERALEFMAKQYGNVLRRKLEALGGDLESFGAHIAGLVAK"
+     gene            complement(1001..1393)
+                     /locus_tag="JT749_RS31565"
+                     /old_locus_tag="JT749_31565"
+     CDS             complement(1001..1393)
+                     /locus_tag="JT749_RS31565"
+                     /old_locus_tag="JT749_31565"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_109843926.1"
+                     /translation="MATQKPRITITLEQDVYDTIKGLSEAQGCTMSGLVSEFLTMVNP
+                     VQQRVLQAVKKARALSVESKADMVASLEAGEAQLTQMIGPLLALMDQIAEGQPPHSNT
+                     GVTTPNPPTPPNQKNPAKRRSRASGGEK"
+ORIGIN      
+        1 atgcaccaaa tgtacgcaca ccgaaggcga aaggcaaccc atgcggattg tttacaggtg
+       61 agcatgaacg catgtgattt gcgtgcatgt gatttgcgtg cacgtatgca tactggcgcg
+      121 cttcgcttgc ccgccacgcc cgttcgcctg gctggacgta ggcgcgccgc cggcgcatcc
+      181 cccgtccatc cagccgcccg gacgcggccc tacttggcga ccaatccagc gatgtgcgcc
+      241 ccgaaggact ccaaatcccc gcccagagcc tctaatttgc gccgtaggac gtttccgtac
+      301 tgcttggcca tgaactccag agcgcgttcg tcatcggtaa gctggcggac cgttccaggc
+      361 ggtgccggct gcatgccatc gacccccgtc agaaccttga ggaggtgctg cgtccagcgc
+      421 gtagccatcc acatctgttc cgggctggcg taggcgtaaa cctgcttggc cttggcgttc
+      481 tgcggcttga gttccagttc tgcccgaacg tggtcaggat cgcccccggt ctgcttgccc
+      541 ttttcgtaaa tgcgcttgta tgccgccgac gacctagacc caatgtagag cgtccgcccg
+      601 tcctgctcgc ggtggtagtc gcctacatgc gtgaccttga gattgaacct gtccgccgtt
+      661 tctatcccga ggctatagag cgagtcccat gcacccggct cgcagtagtc gatagcaacg
+      721 tcagccctga gcaggttgtg ccccctgaac tcatcccgaa cgacggcagc aaaggccggt
+      781 gccctgtcgc cgcttgcaga agcccacacg cgcgttccga cgctgttacc gccccacatc
+      841 acccgcgcaa ggacggaatc gcctctgacg acgttatagg cccgctcata gccgttttta
+      901 ggggtggtcg gggttatgtc cgacagctcg aaagagctgg ccagatggtc aagaacccgg
+      961 tcgcccttgg cctcaatact ggccgtgtag tagtcgaacc tcatttttca cccccagagg
+     1021 ctctagaacg ccgcttcgcg gggttttttt ggttcggtgg tgtagggggg ttaggtgttg
+     1081 tgacccccgt attactatgc gggggttggc cctctgcaat ctgatccatc agagccagca
+     1141 aaggcccgat catttgggtt agctgagcct ctcccgcttc gagactggca accatgtcag
+     1201 ccttcgattc gacgctgagc gcccgagcct ttttgacggc ctgtagaacc ctttgctgaa
+     1261 cagggttgac catcgtcagg aactccgaga caagcccgga catcgtgcag ccctgagcct
+     1321 ctgaaagccc cttgatcgtg tcgtagacgt cctgctctag cgtgatcgtg attctcggtt
+     1381 tctgcgtagc cattggtgat gcactccgtg caaagtg
+//
+
