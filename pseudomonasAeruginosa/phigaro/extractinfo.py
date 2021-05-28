@@ -28,10 +28,12 @@ if __name__ == '__main__':
                 for i in list(set(trans)):
                     df.at[ind, 'transposable_{}'.format(i)] = trans.count(i)
 
+            df.at[ind, 'total'] = len(tempDF)
+
     df = df.fillna(0)
     l = sorted(list(df.columns))
     df = df[l]
 
-    writer = pd.ExcelWriter('{}phigaro/prophages.xlsx'.format(os.getenv('MAIN_PATH2')), engine = 'xlsxwriter') # pylint: disable=abstract-class-instantiated
+    writer = pd.ExcelWriter('{}phigaro/prophages2.xlsx'.format(os.getenv('MAIN_PATH2')), engine = 'xlsxwriter') # pylint: disable=abstract-class-instantiated
     df.to_excel(writer, sheet_name = 'Sheet1', index = False)
     writer.save()
